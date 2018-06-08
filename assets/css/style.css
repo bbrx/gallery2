@@ -1,0 +1,320 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+
+}
+.hero-container {
+  height: 900px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.hero {
+  background: url('https://wargaming.com/media/_versions/games/wot/wot19201080art_large.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+ /* padding: 40px;*/
+  transition: transform 2s;
+}
+
+.hero:hover {
+  transform: scale(1.2);
+}
+
+.hero-stuff {
+  top: 40px;
+  left: 40px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: Helvetica;
+  color: #fff;
+  z-index: 8;
+
+}
+
+/*a.btn {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 11px 30px;
+  background-color: transparent;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  border: 1px solid #999;
+  opacity: 0.8;
+  transition: all 2s ease-in-out;
+  background-image: linear-gradient(to bottom,#636363,#000);
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+a.btn:hover {
+  background-image: linear-gradient(to bottom,#000,#000);
+  color: #8a90ff;
+}*/
+
+p {
+  font-family: Helvetica;
+}
+/*hero*/
+
+header {
+	font-family: Helvetica;
+}
+nav {
+    float: right;
+    margin: 0;
+    overflow:hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li{
+    display: inline-block;
+    list-style-type: none;
+    align-items: right;
+}
+nav > ul > li > a{
+    color: black;
+    display: block;
+    line-height: 60px;
+    padding: 0px 6px;
+    text-decoration: none;
+}
+
+.flexMeniu {
+	position: fixed;
+	background-color: transparent;
+	color: white;
+	padding-top: 450px;
+	margin: 10px;
+	font-size: 25px;
+	z-index: 1;
+
+	
+}
+.flexMeniu > ul{
+	display: flex;
+	list-style: none;
+}
+.flexMeniu > ul >li {
+    border-style: none;
+    color: #aaa;
+    font-size: 15px; 
+    font-weight: bold;
+    margin-right: auto;
+	margin-left: auto;
+}
+.navLogo {
+	max-width: 60px;
+    margin: 40px 450px 0px 0px;
+    position: relative;
+
+}
+
+.flexMeniu > li {
+  margin-left: 10px;
+}
+
+.flexMeniu ul {
+  margin: 22px 0 0 0;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: transparent;
+}
+
+.flexMeniu ul li {
+  transition: 0.3s;
+}
+
+.flexMeniu ul li a {
+  padding: 10px;
+  color: white;
+  transition: 0.3s;
+  display: block;
+  font-size: 20px;
+  text-transform: none;
+}
+
+.flexMeniu ul li:hover > a {
+  color: #8a90ff;
+}
+
+.flexMeniu ul ul {
+  margin: 0;
+}
+
+body {
+/*	margin-left: auto;
+	margin-right: auto;*/
+	font-family: Lato, Helvetica neue;
+	font-weight: lighter;
+
+}
+.parallax {
+	background-image: url('https://i.ytimg.com/vi/YOf7ICaGlT8/maxresdefault.jpg');
+	min-height: 1080px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+.tanks {
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 100px;
+ 	width: 100%;
+ 	margin-top: 120px;
+
+}
+.tanks > li {
+	position: relative;
+	list-style-type: none;
+	font-size: 10px;
+/*	justify-content: space-between;
+*/	
+	
+}
+.img-circular {
+ 
+ display: flex;
+ flex-wrap: wrap;
+ width: 200px;
+ height: 200px;
+ margin:10px;
+ background-size: cover;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+}
+.tankAlbum {
+	position: absolute;
+
+
+}
+.tankAlbum {
+	display: block;
+	flex-direction: row;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+/*.circtext {
+	text-align: center;*/
+
+ 	
+	
+
+/*}
+.flexMeniu > ul{
+	margin-left: auto;
+	margin-right: auto;*/
+/*}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;*/
+
+}
+
+
+h2, h3{
+	text-align: center;
+	color: #aaa;
+}
+
+.hero-stuff h1{
+	text-align: center;
+	color: white;
+	opacity: 0.8;
+	margin-top: 0px;
+	padding-top: 100px;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.image-overlay-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0; 
+}
+
+.overlay-fade-in img {
+  transition: all 2s linear; 
+}
+
+.overlay-fade-in .image-overlay-content {
+  opacity: 0;
+/*  background-color: rgba(0, 0, 0, 0.4);
+*/  transition: all 2s ease-in-out; 
+}
+
+.overlay-fade-in h2{
+  color: white;
+  font-size: 20px;
+  margin-top: 0%;
+  opacity: 0;
+  transition: all 2s ease-in-out;
+  background: none; 
+  overflow: hidden;
+ 
+}
+
+.overlay-fade-in .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 3px 16px;
+  background: transparent;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  border: 1px solid #999;
+  opacity: 0.8;
+  transition: all 2s ease-in-out; }
+
+.overlay-fade-in .button:hover {
+    box-shadow: 0 0 5px #000; }
+
+.overlay-fade-in:hover img {
+  transform: scale(1.05); }
+
+.overlay-fade-in:hover .image-overlay-content {
+  opacity: 0.8; }
+
+.overlay-fade-in:hover h2, .overlay-fade-in p, .overlay-fade-in .button {
+  opacity: 0.9; }
+
+.overlay-fade-in:hover p {
+  transition-delay: 2s; }
+  
+.overlay-fade-in:hover .button {
+  transition-delay: 2s; }
+
